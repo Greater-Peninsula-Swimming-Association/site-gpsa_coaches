@@ -39,3 +39,24 @@
     width: 80%;
     height: auto;
 }
+
+/* Native <details>/<summary> support */
+summary.collapsible_text {
+    list-style: none;
+}
+
+summary.collapsible_text::-webkit-details-marker {
+    display: none;
+}
+
+details[open] .collapsible_content {
+    display: block;
+}
+
+details:not([open]) .collapsible_icon::after {
+    content: "+";
+}
+
+details[open] .collapsible_icon::after {
+    content: "-";
+}
