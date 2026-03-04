@@ -5,6 +5,7 @@ Reads data/postings.yaml, renders templates/index.html.j2, and outputs to dist/.
 Run: python build.py
 """
 
+import json
 import shutil
 import yaml
 import jinja2
@@ -33,6 +34,10 @@ def build():
     output = template.render(postings=active_postings)
 
     (dist / "index.html").write_text(output)
+
+    # Generate status.json for sidebar widget consumption
+    status = {"active_postings": len(active_postings)}
+    (dist / "status.json").write_text(json.dumps(status))
 
     # Copy static assets flat into dist so relative paths (styles.css, images/) work
     for item in Path("static").iterdir():
