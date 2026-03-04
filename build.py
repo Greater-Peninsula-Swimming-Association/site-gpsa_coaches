@@ -20,7 +20,10 @@ def build():
     with open("data/postings.yaml") as f:
         data = yaml.safe_load(f)
 
-    active_postings = [p for p in data["postings"] if p.get("active", False)]
+    active_postings = sorted(
+        [p for p in data["postings"] if p.get("active", False)],
+        key=lambda p: p["team"]
+    )
 
     env = jinja2.Environment(
         loader=jinja2.FileSystemLoader("templates"),
