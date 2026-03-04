@@ -86,7 +86,7 @@ postings:
         Cover letter should detail any salary or pay history. Applicants must be at least 18 years
         of age. Please include any aquatic certifications or coaching certificates in your resume.
 
-  - id: elizabeth-lake
+  - id: elizabeth-lake-2025
     team: Elizabeth Lake
     active: false
     description:
@@ -129,7 +129,7 @@ postings:
         Don't miss out on this fantastic opportunity to lead and inspire young swimmers in our
         community! We look forward to welcoming enthusiastic coaches to the Elizabeth Lake pool family.
 
-  - id: kiln-creek
+  - id: kiln-creek-2025
     team: Kiln Creek
     active: false
     description:
@@ -169,7 +169,7 @@ postings:
       email: justin.r.hinson3@gmail.com
       suffix: "."
 
-  - id: marlbank
+  - id: marlbank-2025
     team: Marlbank Mudtoads
     active: false
     description:
@@ -213,12 +213,12 @@ postings:
         community! We look forward to welcoming enthusiastic coaches to the Marlbank Pool family.
         Let's make waves together!
 
-  - id: poquoson
+  - id: poquoson-2025
     team: Poquoson Barracudas
     active: false
     image: images/poquoson-2025.jpg
 
-  - id: riverdale
+  - id: riverdale-2025
     team: Riverdale Rays
     active: false
     description:
