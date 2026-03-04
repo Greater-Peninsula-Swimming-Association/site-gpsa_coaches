@@ -37,9 +37,57 @@
 
 postings:
 
+  - id: poquoson-2026
+    team: Poquoson Barracudas
+    active: true
+    description:
+      - >
+        Contract Position — Assistant Summer Swim Coach for the Poquoson Barracuda Swim Team,
+        serving youth ages 5–18. The 2026 summer season begins May 26 and runs through August 2,
+        concluding with the GPSA championship meet on August 1 and team banquet on August 2.
+    positions:
+      - title: Assistant Summer Swim Coach
+        duties:
+          - >
+            Serve as assistant coach for the 2026 Summer Swim Season, working cooperatively with
+            the head coach to develop a training program that will effectively improve participants'
+            swim performance and techniques. Serves as a role model to participants by exhibiting
+            good swim habits, sportsmanship, and conduct.
+          - >
+            Provide supervision of swimmers and lead practices that are age and skill appropriate
+            on a daily basis. Practices begin each evening at approximately 5:30pm–8:30pm.
+          - >
+            Assist with set up of equipment required for practices and home meets. Properly return
+            all equipment to storage at the conclusion of use, including lane lines.
+          - >
+            Work cooperatively with all coaches to set up entries, times, and swim line-up for
+            meets. Utilize the swim team management program to do so.
+          - >
+            Conduct, take roll, and lead practices with age and skill appropriate skill sessions
+            as directed. Be present at team functions including meets, practices, and booster
+            club events.
+          - >
+            Attend all meets; provide line-up and coordination for swimmers to be entered in
+            their proper events.
+          - >
+            Enforce all league and Poquoson Parks & Recreation rules and regulations. Handle
+            discipline issues amongst team members and parents as needed, within the team's
+            written guidelines and policies. Uphold all rules of Poquoson Pool and all rules
+            of other facilities when visiting.
+    contact:
+      intro: >
+        To apply, provide your resume to Gretchen Gochenour, Director, City of Poquoson Office
+        of Community Recreation (757-868-3580) at
+      email: Gretchen.Gochenour@poquoson-va.gov
+      closing: >
+        Resume should detail swimming experience, teaching or coaching experience, and documented
+        experience working with children. Compensation is based on experience and is negotiable.
+        Cover letter should detail any salary or pay history. Applicants must be at least 18 years
+        of age. Please include any aquatic certifications or coaching certificates in your resume.
+
   - id: elizabeth-lake
     team: Elizabeth Lake
-    active: true
+    active: false
     description:
       - >
         Are you a passionate swim coach looking for an exciting opportunity to lead and inspire
@@ -82,7 +130,7 @@ postings:
 
   - id: kiln-creek
     team: Kiln Creek
-    active: true
+    active: false
     description:
       - >
         Are you enthusiastic, love to teach and love the water? Come be a swim coach for Kiln Creek
@@ -122,7 +170,7 @@ postings:
 
   - id: marlbank
     team: Marlbank Mudtoads
-    active: true
+    active: false
     description:
       - >
         Are you a passionate swim coach looking for an exciting opportunity to lead and inspire a
@@ -166,12 +214,12 @@ postings:
 
   - id: poquoson
     team: Poquoson Barracudas
-    active: true
+    active: false
     image: images/poquoson-2025.jpg
 
   - id: riverdale
     team: Riverdale Rays
-    active: true
+    active: false
     description:
       - >
         Are you passionate about swimming and coaching? Do you have a knack for motivating young
