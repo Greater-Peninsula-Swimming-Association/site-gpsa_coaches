@@ -41,6 +41,9 @@ postings:
   - id: glendale-2026
     team: Glendale Gators
     active: true
+    positions:
+      - title: Associate Head Coach
+      - title: Assistant Coach
     contact:
       intro: >
         If you're interested in joining the Glendale Gators coaching staff for the 2026 season, please complete this form.
