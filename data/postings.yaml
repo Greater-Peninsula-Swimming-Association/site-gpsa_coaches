@@ -22,9 +22,10 @@
 #   qualifications: (optional) Shared qualifications list shown after all positions.
 #
 #   contact:      (optional) Contact information block. Supports:
-#     intro:      Text before the linked name/email
-#     email:      The contact email address
-#     link_text:  Text for the mailto link (defaults to the email address if omitted)
+#     intro:      Text before the linked name/email/URL
+#     email:      The contact email address (generates a mailto: link)
+#     url:        A plain URL (e.g. Google Form link) — used instead of email when set
+#     link_text:  Display text for the link (defaults to email or url if omitted)
 #     suffix:     Text appended after the link (e.g. ".")
 #     closing:    (optional) A closing paragraph after the contact line
 #
@@ -36,6 +37,15 @@
 # Push to main — GitHub Actions will rebuild and deploy automatically.
 
 postings:
+
+  - id: glendale-2026
+    team: Glendale Gators
+    active: true
+    contact:
+      intro: >
+        If you're interested in joining the Glendale Gators coaching staff for the 2026 season, please complete this form.
+      url: https://docs.google.com/forms/d/e/1FAIpQLSclw8zp7B7aoGYaXyajx31NwPXL5noHv2GDGpCsASpTRWiyVA/viewform
+      link_text: Coaching Interest Form
 
   - id: poquoson-2026
     team: Poquoson Barracudas

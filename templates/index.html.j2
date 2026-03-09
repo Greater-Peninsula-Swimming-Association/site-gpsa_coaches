@@ -73,7 +73,11 @@
             {% if posting.contact %}
             <p>
                 {{ posting.contact.intro }}
+                {% if posting.contact.url %}
+                <a href="{{ posting.contact.url }}">{{ posting.contact.link_text | default(posting.contact.url) }}</a>{{ posting.contact.suffix | default('') }}
+                {% elif posting.contact.email %}
                 <a href="mailto:{{ posting.contact.email }}">{{ posting.contact.link_text | default(posting.contact.email) }}</a>{{ posting.contact.suffix | default('') }}
+                {% endif %}
             </p>
             {% if posting.contact.closing %}
             <p>{{ posting.contact.closing }}</p>
