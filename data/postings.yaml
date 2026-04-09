@@ -40,7 +40,7 @@ postings:
 
   - id: glendale-2026
     team: Glendale Gators
-    active: true
+    active: false
     positions:
       - title: Associate Head Coach
       - title: Assistant Coach
