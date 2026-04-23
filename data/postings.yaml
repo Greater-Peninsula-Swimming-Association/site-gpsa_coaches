@@ -38,6 +38,19 @@
 
 postings:
 
+  - id: village_green-2026
+    team: Village Green Patriots
+    active: true
+    image: images/2026-VG_coach_flyer.pdf
+    positions:
+      - title: Head Coach
+      - title: Assistant Coach
+    contact:
+      intro: >
+        Village Green is looking for applicants interested in coaching or assistant coaching this upcoming season. 
+        Call or email for more information 954-536-8544.
+      email: vgswimteamnn@gmail.com
+
   - id: glendale-2026
     team: Glendale Gators
     active: false
